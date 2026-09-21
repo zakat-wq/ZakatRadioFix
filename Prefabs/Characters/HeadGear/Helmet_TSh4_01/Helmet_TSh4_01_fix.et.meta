@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CA6688EF3F069BE6}Prefabs/Characters/HeadGear/Helmet_TSh4_01/Helmet_TSh4_01_fix.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

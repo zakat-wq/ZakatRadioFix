@@ -1,0 +1,22 @@
+GameProject {
+ ID "ZakatRadioFix"
+ GUID "6950B7B9AC678FC3"
+ TITLE "Zakat`s Radio Fix"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

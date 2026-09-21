@@ -1,0 +1,30 @@
+GameEntity : "{BE176A2D8451669E}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01_base.et" {
+ ID "5102FE5F1C91AA14"
+ components {
+  BaseRadioComponent "{6950B7BC21107225}" {
+   "Encryption key" "chikenNuggets"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{6950B7BC19073A6D}" {
+     ChannelFrequency 32000
+     "Transmitting Range" 5000
+     "Min tunable frequency" 30000
+     "Max tunable frequency" 52950
+     "Frequency resolution" 200
+    }
+    RadioTransceiver "{6950B7BC1A00E6C2}" {
+     ChannelFrequency 53000
+     "Transmitting Range" 5000
+     "Min tunable frequency" 53000
+     "Max tunable frequency" 75950
+     "Frequency resolution" 200
+    }
+   }
+  }
+  SCR_RadioComponent "{6950C9CC9635DE6A}" {
+   m_bCanBeHeld 0
+   m_iRadioCategory MANPACK
+   m_iRadioType ANPRC77
+  }
+ }
+}

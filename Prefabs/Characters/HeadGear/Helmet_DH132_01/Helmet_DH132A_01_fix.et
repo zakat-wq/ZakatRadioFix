@@ -1,0 +1,41 @@
+GameEntity : "{5236EF0BB8D4BD29}Prefabs/Characters/HeadGear/Helmet_DH132_01/Helmet_DH132A_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseRadioComponent "{6950D6DFE847CA10}" {
+   "Encryption key" "chickenNuggets"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{6950D6DFE33EC2EB}" {
+     ChannelFrequency 32000
+     "Transmitting Range" 5000
+     "Min tunable frequency" 30000
+     "Max tunable frequency" 52950
+     "Frequency resolution" 200
+    }
+    RadioTransceiver "{6950D6DFE425A7B6}" {
+     ChannelFrequency 53000
+     "Transmitting Range" 5000
+     "Min tunable frequency" 53000
+     "Max tunable frequency" 75950
+    }
+   }
+  }
+  SCR_HeadgearInventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{52D2D35767351900}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 10
+     }
+    }
+   }
+  }
+  SCR_RadioComponent "{6950D6DFFD1647DD}" {
+   m_bCanBeHeld 0
+   m_iRadioCategory MANPACK
+   m_iRadioType ANPRC77
+  }
+ }
+ coords 3.099 3.794 -0.901
+}

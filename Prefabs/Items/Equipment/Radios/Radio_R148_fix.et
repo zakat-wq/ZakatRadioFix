@@ -5,11 +5,7 @@ GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
    "Encryption key" "coldBorscht"
    "Turned on" 1
    Transceivers {
-    RadioTransceiver "{6950B7BA68EEEDDB}" {
-     ChannelFrequency 20000
-     "Min tunable frequency" 20000
-     "Max tunable frequency" 51950
-     "Frequency resolution" 200
+    RelayTransceiver "{6A6B04D17B6B0811}" {
     }
    }
   }

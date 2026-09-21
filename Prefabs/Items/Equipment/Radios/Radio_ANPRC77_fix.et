@@ -18,6 +18,10 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
      "Frequency resolution" 200
     }
     RelayTransceiver "{6A6AE8F6AD4B74B4}" {
+      ChannelFrequency 32000
+     "Transmitting Range" 5000
+     "Max tunable frequency" 52950
+     "Frequency resolution" 200
     }
    }
   }

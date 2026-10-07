@@ -4,17 +4,10 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
   BaseRadioComponent "{5A30BAE7673C63CA}" {
    "Turned on" 1
    Transceivers {
-     RelayTransceiver "{6A6AE8F6AD4B74B4}" {
-     ChannelFrequency 53000
-     "Transmitting Range" 5000
-     "Min tunable frequency" 53000
-     "Max tunable frequency" 75950
-     "Frequency resolution" 200
-    }
-    RelayTransceiver "{6A6AE8F6AD4B74B4}" {
-      ChannelFrequency 32000
-     "Transmitting Range" 5000
-     "Max tunable frequency" 52950
+    RelayTransceiver "{6A8E72DFCDFA69F3}" {
+     ChannelFrequency 32000
+     "Min tunable frequency" 30000
+     "Max tunable frequency" 79950
      "Frequency resolution" 200
     }
    }

@@ -5,14 +5,14 @@ GameEntity : "{B95A67A78A9CAA28}Prefabs/Characters/HeadGear/Helmet_ZSh5_01/Helme
    "Encryption key" "coldBorscht"
    "Turned on" 1
    Transceivers {
-    RadioTransceiver "{6950B7BFF305C04C}" {
+    RelayTransceiver "{6950B7BFF305C04C}" {
      ChannelFrequency 20000
      "Transmitting Range" 5000
      "Min tunable frequency" 20000
      "Max tunable frequency" 36000
      "Frequency resolution" 200
     }
-    RadioTransceiver "{6950B7BFE7FE33A3}" {
+    RelayTransceiver "{6950B7BFE7FE33A3}" {
      "Transmitting Range" 5000
      "Min tunable frequency" 36000
      "Max tunable frequency" 52000

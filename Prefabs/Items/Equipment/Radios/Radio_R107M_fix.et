@@ -5,18 +5,11 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
    "Encryption key" "coldBorscht"
    "Turned on" 1
    Transceivers {
-    RadioTransceiver "{5EA4A89F0D06E18F}" {
-     ChannelFrequency 20000
-     "Transmitting Range" 5000
-     "Min tunable frequency" 20000
-     "Max tunable frequency" 36000
+    RelayTransceiver "{6A8E72DFF552121C}" {
+     ChannelFrequency 56000
+    }
+    RelayTransceiver "{6A8E72DFCDFA69F3}" {
      "Frequency resolution" 200
-    }
-    RelayTransceiver "{6A6B04D11B6E2157}" {
-     "Transmitting Range" 5000
-    }
-    RelayTransceiver "{6A6B04D11C9528FD}" {
-     "Transmitting Range" 5000
     }
    }
   }

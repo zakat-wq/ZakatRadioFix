@@ -8,11 +8,15 @@ GameEntity : "{5236EF0BB8D4BD29}Prefabs/Characters/HeadGear/Helmet_DH132_01/Helm
     RelayTransceiver "{6A8E72DF4595EEEF}" {
      ChannelFrequency 32000
      "Transmitting Range" 5000
+     "Min tunable frequency" 30000
+     "Max tunable frequency" 79950
      "Frequency resolution" 200
     }
     RelayTransceiver "{6A8E72DEA8C399F1}" {
      ChannelFrequency 48000
      "Transmitting Range" 5000
+     "Min tunable frequency" 30000
+     "Max tunable frequency" 79950
      "Frequency resolution" 200
     }
    }

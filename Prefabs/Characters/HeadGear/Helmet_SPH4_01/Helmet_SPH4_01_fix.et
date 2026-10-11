@@ -2,18 +2,11 @@ GameEntity : "{BE176A2D8451669E}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helme
  ID "5102FE5F1C91AA14"
  components {
   BaseRadioComponent "{6950B7BC21107225}" {
-   "Encryption key" "chikenNuggets"
+   "Encryption key" "chickenNuggets"
    "Turned on" 1
    Transceivers {
     RelayTransceiver "{6950B7BC19073A6D}" {
      ChannelFrequency 32000
-     "Transmitting Range" 5000
-     "Min tunable frequency" 30000
-     "Max tunable frequency" 79950
-     "Frequency resolution" 200
-    }
-    RelayTransceiver "{6950B7BC1A00E6C2}" {
-     ChannelFrequency 53000
      "Transmitting Range" 5000
      "Min tunable frequency" 30000
      "Max tunable frequency" 79950

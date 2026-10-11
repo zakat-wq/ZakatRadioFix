@@ -6,12 +6,10 @@ GameEntity : "{B95A67A78A9CAA28}Prefabs/Characters/HeadGear/Helmet_ZSh5_01/Helme
    "Turned on" 1
    Transceivers {
     RelayTransceiver "{6950B7BFF305C04C}" {
-     ChannelFrequency 20000
+     ChannelFrequency 38000
      "Transmitting Range" 5000
-     "Frequency resolution" 200
-    }
-    RelayTransceiver "{6950B7BFE7FE33A3}" {
-     "Transmitting Range" 5000
+     "Min tunable frequency" 38000
+     "Max tunable frequency" 54000
      "Frequency resolution" 200
     }
    }
